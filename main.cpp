@@ -3,9 +3,6 @@
 
 int main() {
     Text a("Source.txt");
-    /*if (a.rhythm(a[0], a[1])) {
-        std::cout << 1 << std::endl;
-    }*/
     int b[7];
     for (auto& i: b) {
         i = random::rand();
